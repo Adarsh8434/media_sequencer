@@ -1,0 +1,68 @@
+.app {
+  padding: 20px;
+}
+
+.windows-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.media-window {
+  min-width: 0;
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.media-content {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.blank-screen {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ddd;
+}
+
+@media (max-width: 1200px) {
+  .windows-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 700px) {
+  .windows-container {
+    grid-template-columns: 1fr;
+  }
+}
+.sync-controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.sync-controls select,
+.sync-controls input,
+.sync-controls button {
+  padding: 8px 12px;
+  font-size: 14px;
+}
+.playlist-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.playlist-controls select,
+.playlist-controls button {
+  padding: 8px;
+}
