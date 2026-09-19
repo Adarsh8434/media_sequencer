@@ -625,7 +625,7 @@ dist
 The production environment variable is:
 
 ```env
-VITE_API_URL=(https://media-sequencer-frontend-ig60.onrender.com/)
+VITE_API_URL=(https://media-sequencer-backend-mwpq.onrender.com)
 ```
 
 ---
@@ -647,10 +647,13 @@ PORT=
 ### Frontend
 
 ```env
-VITE_API_URL= https://media-sequencer-backend-mwpq.onrender.com
+VITE_API_URL=
+```
+
+> 
 
 ---
----
+
 ## Testing
 
 The following functionality was tested during development:
