@@ -4,8 +4,8 @@ A full-stack media sequencing application that manages multiple display windows,
 
 ## Live Demo
 
-- Frontend: `(https://media-sequencer-frontend-ig60.onrender.com/)`
-- Backend API: `(https://media-sequencer-backend-mwpq.onrender.com)`
+- Frontend: `https://media-sequencer-frontend-ig60.onrender.com`
+- Backend API: `https://media-sequencer-backend-mwpq.onrender.com`
 
 
 ---
